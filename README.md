@@ -1,8 +1,17 @@
 # YZU-1131-Web-Final-Project
 
-## 0.2.1 style: Adjust README Layout
+## v0.1.2 feat: Modify Index Header Carousel Pic、Adjust Version Code
 
-## v0.2 feat: Finish Modify Navbar、Change .html Files To .php、Delete Unused Files
+* Features
+    1. Modify Index Header Carousel Pic
+        * Add a folder called `index` in `img`
+            * Add new carousel pictures into `img/index`
+    2. Adjust Version Code
+        * New Code：v`[Big Version]`.`[Pages]`.`[Working Progress]`
+
+## v0.1.1 style: Adjust README Layout
+
+## v0.1.0 feat: Finish Modify Navbar、Change .html Files To .php、Delete Unused Files
 
 * Features
     * Finish Modify Navbar
@@ -10,12 +19,12 @@
             <details>
             <summary>Code</summary>
                
-             ```html
-              <h1 class="m-0 text-primary">
-                  <span style="color:#272727;">Explore</span>
-                  <span style="color:#FF2D2D;">Y</span><span style="color:#46A3FF;">Z</span><span style="color:#FFDC35;">U</span>
-              </h1>
-             ```
+            ```html
+            <h1 class="m-0 text-primary">
+                <span style="color:#272727;">Explore</span>
+                <span style="color:#FF2D2D;">Y</span><span style="color:#46A3FF;">Z</span><span style="color:#FFDC35;">U</span>
+            </h1>
+            ```
             </details>
         2. Change Links to `Home` `EAT` `PLAY` `TRAFFIC` `CONTACT` `SIGN IN`
     * Change .html Files To .php
@@ -33,7 +42,7 @@
             1. `LICENSE.txt`
             2. `real-estate-html-template.jpg`
 
-## v0.1 Initial ReadME File Message
+## v0.0.1 Initial ReadME File Message
 
 1. Initialize Git Repo
     * Commands
@@ -73,7 +82,7 @@
             git push origin main
         ```
 
-## v0 Initialize
+## v0.0.0 Initialize
 
 * Features
     1. Download Website Templete From `Free CSS Templete`
