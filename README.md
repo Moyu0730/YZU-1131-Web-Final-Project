@@ -1,5 +1,31 @@
 # YZU-1131-Web-Final-Project
 
+## v0.1.3 feat: Modify Footer Info
+
+* Features
+    1. Change the Info of Get In Touch
+        <details>
+        <summary>Code</summary>
+
+        ```html
+        <h5 class="text-white mb-4">Get In Touch</h5>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No.135 Yuan-Tung Road, Chung-Li</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+886 03 463 8800</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>yzusaworking@gmail.com</p>
+            <div class="d-flex pt-2">
+        ```
+        </details>
+
+    2. Change CopyRights Name
+        <details>
+        <summary>Code</summary>
+            
+        ```html
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Explore YZU</a>, All Right Reserved. 
+        ```
+        </details>
+
 ## v0.1.2 feat: Modify Index Header Carousel Pic、Adjust Version Code
 
 * Features
