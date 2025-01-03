@@ -7,6 +7,19 @@
     2. Set `NTD$ 0 ~ NTD$ 200` Part Into Default Value
     3. Make Sure The Degree Button is Valid
 
+## feat: Add Index Pictures
+
+* Features
+    1. Restaurant Gallery
+        * smiling-fish-1.jpg
+        * smiling-fish-2.jpg
+        * smiling-fish-3.jpg
+        * xingren-canteen-1.jpg
+        * xingren-canteen-2.jpg
+        * xingren-canteen-3.jpg
+    2. Footer Photo Gallery
+        * 
+
 ## v0.1.3 feat: Modify Footer Info
 
 * Features
