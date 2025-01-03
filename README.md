@@ -1,5 +1,7 @@
 # YZU-1131-Web-Final-Project
 
+## github: Merge `moyu` Branch and `addPic` Branch、Update `main` Position
+
 ## v0.1.4 feat: ReDesign Restaurant Gallery
 
 * Features
