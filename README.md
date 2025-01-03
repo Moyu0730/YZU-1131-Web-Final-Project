@@ -10,8 +10,20 @@
         * xingren-canteen-1.jpg
         * xingren-canteen-2.jpg
         * xingren-canteen-3.jpg
-    2. Footer Photo Gallery
-        * 
+        * muti-italian-kitchen-1.jpg
+        * muti-italian-kitchen-2.jpg
+        * muti-italian-kitchen-3.jpg
+        * yixin-cold-noodles-1.jpg
+        * yixin-cold-noodles-2.jpg
+        * yixin-cold-noodles-3.jpg
+        * cross-run-1.jpg
+        * cross-run-2.jpg
+        * cross-run-3.jpg
+        * Sauce-roasted-pork-and-egg-toast-1.jpg
+        * Sauce-roasted-pork-and-egg-toast-2.jpg
+        * Sauce-roasted-pork-and-egg-toast-3.jpg
+        * Sauce-roasted-pork-and-egg-toast-4.jpg
+        * yzu-logo.png
 
 ## v0.1.3 feat: Modify Footer Info
 
