@@ -1,5 +1,20 @@
 # YZU-1131-Web-Final-Project
 
+## v0.1.5 feat: Update Website Icon、Modify Team Intro Section、Add About Us、Adjust img Classification
+
+* Features
+    1. Update Website Icon
+        * Affected：Favicon、Navbar
+    2. Modify Team Intro Section
+        * Modify New Pofessional Title、Change the title to `Website Production Team`
+    3. Add About Us
+        * To Navbar
+        * Create `about.php`
+    4. Adjust img Classification
+        * Add `restaurant gallery` and `team` folders to the `img/index`
+        * Change `yzu-logo.png` into `icon.jpg`
+        * Move the website icon - `icon.jpg` out of the `img/index` folder
+
 ## github: Merge `moyu` Branch and `addPic` Branch、Update `main` Position
 
 ## v0.1.4 feat: ReDesign Restaurant Gallery
