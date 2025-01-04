@@ -1,5 +1,14 @@
 # YZU-1131-Web-Final-Project
 
+## github: Merge `moyu` Branch and `addPic` Branch、Update `main` Position
+
+## v0.1.4 feat: ReDesign Restaurant Gallery
+
+* Features
+    1. Change `For Rent`、`For Sell`、`Features` Into `NTD$ 0 ~ NTD$ 200`、`NTD$ 200 ~ NTD$ 400`、`NTD$ 400 Up`
+    2. Set `NTD$ 0 ~ NTD$ 200` Part Into Default Value
+    3. Make Sure The Degree Button is Valid
+
 ## feat: Add Index Pictures
 
 * Features
