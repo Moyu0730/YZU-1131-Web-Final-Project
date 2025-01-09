@@ -1,5 +1,15 @@
 # YZU-1131-Web-Final-Project
 
+## v0.1.6 feat: Update Website Production Team Info
+
+* Features
+    * Aslan
+        * Upload Pictures
+        * Update Social Media Link
+    * Ann : Update Name
+    * Bella : Update Name
+    * Lica : Update Name
+
 ## v0.1.5 feat: Update Website Icon、Modify Team Intro Section、Add About Us、Adjust img Classification
 
 * Features

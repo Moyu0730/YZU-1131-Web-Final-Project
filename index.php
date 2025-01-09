@@ -707,11 +707,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid" src="./img/index/team/aslan.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.facebook.com/aslan.chen.75"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/_moyu0730"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/_moyu.73/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -731,7 +731,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <h5 class="fw-bold mb-0">Ann Yeh</h5>
                                 <small>User Interface Designer</small>
                             </div>
                         </div>
@@ -747,7 +747,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <h5 class="fw-bold mb-0">Bella Yu</h5>
                                 <small>User Experience Designer</small>
                             </div>
                         </div>
@@ -763,7 +763,7 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <h5 class="fw-bold mb-0">Lica Chen</h5>
                                 <small>Back End Engineer</small>
                             </div>
                         </div>
