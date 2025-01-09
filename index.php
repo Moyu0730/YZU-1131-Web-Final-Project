@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/icon.jpg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +33,9 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
+
+
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -47,7 +50,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.php" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
-                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                        <img class="img-fluid" src="img/icon.jpg" alt="Icon" style="width: 40px; height: 40px;">
                     </div>
                     <h1 class="m-0 text-primary">
                         <span style="color:#272727;">Explore</span>
@@ -76,6 +79,7 @@
                                 <a href="404.php" class="dropdown-item">404 Error</a>
                             </div>
                         </div>
+                        <a href="about.php" class="nav-item nav-link">About Us</a>
                         <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Sign In</a>
@@ -146,6 +150,7 @@
             </div>
         </div>
         <!-- Search End -->
+         
 
 
         <!-- Category Start -->
@@ -695,7 +700,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Property Agents</h1>
+                    <h1 class="mb-3">Website Production Team</h1>
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div class="row g-4">
@@ -710,8 +715,8 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Aslan Chen</h5>
+                                <small>Full Stack Developer</small>
                             </div>
                         </div>
                     </div>
@@ -727,7 +732,7 @@
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <small>User Interface Designer</small>
                             </div>
                         </div>
                     </div>
@@ -743,7 +748,7 @@
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <small>User Experience Designer</small>
                             </div>
                         </div>
                     </div>
@@ -759,7 +764,7 @@
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <small>Back End Engineer</small>
                             </div>
                         </div>
                     </div>
