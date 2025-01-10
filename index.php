@@ -302,108 +302,109 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/ADDcmV7A7t4HgKEr9"><img class="img-fluid" src="img/index\restaurant gallery\smiling-fish-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">A</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                        <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/ADDcmV7A7t4HgKEr9">Smiling Fish</a>
+                                        <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 6, Lane 8, Xing'an 1st Street, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>0930369812</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.6 / 5.0</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/MLSoP2Ee3PuUDkLz6"><img class="img-fluid" src="img/index\restaurant gallery\xingren-canteen-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">B</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                        
+                                        <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/MLSoP2Ee3PuUDkLz6">Xingren Canteen</a>
+                                        <h6 class="mb-3">Cash、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 39, Lane 67, Section 2, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034631111</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.1 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
+                                        <a href=""><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Italy</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">C</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/fkTSPU2p5iZhxHEu8">Muti Italian Kitchen</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 202, Section 1, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034626858</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.2 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/oSQgs5MYBNwrnwXy6"><img class="img-fluid" src="img\index\restaurant gallery\yixin-cold-noodles-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">D</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/oSQgs5MYBNwrnwXy6">Yixin Cold Noodles</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 112, Xinyi Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034334671</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.2 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/kt9xtBxHXnchcgBG9"><img class="img-fluid" src="img\index\restaurant gallery\cross-run-1.jpg" alt="" width="400px" height="400px"></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">E</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/kt9xtBxHXnchcgBG9">Cross Run</a>
+                                    <h6 class="mb-3">Cash、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 13, Lane 8, Xing'an 1st Street, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>0903329680</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.5 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/tkDFnLo7gDGx9wCM7"><img class="img-fluid" src="img\index\restaurant gallery\Sauce-roasted-pork-and-egg-toast-1.jpg"></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">???</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">NTD$ 0 ~ NTD$ 200</h5>
-                                        <a class="d-block h5 mb-2" href="">F</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>???</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/tkDFnLo7gDGx9wCM7">Sauce</a>
+                                    <h6 class="mb-3">Cash、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 143, Xingnong Road, Zhongli District, Taoyuan City 32067</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>???</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>???</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034611198</small>
+                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.4 / 5</small>
                                     </div>
                                 </div>
                             </div>
@@ -419,114 +420,108 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div>
+                                        <a href="https://maps.app.goo.gl/7HJAcd54GjkPqNoP7m"><img class="img-fluid" src="img\index\restaurant gallery\abiko-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Japanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">2</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/7HJAcd54GjkPqNoP7">Abiko</a>
+                                    <h6 class="mb-3">Cash、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 7, Lane 67, Section 2, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>032853135</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.6 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+                                        <a href="https://maps.app.goo.gl/evyASaAgEbUupgcS9?g_st=com.google.maps.preview.copy"><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Korean</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/evyASaAgEbUupgcS9?g_st=com.google.maps.preview.copy">Matchi Korean Cuisine</a>
+                                    <h6 class="mb-3">Cash、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 73, Lane 67, Section 2, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034350580</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.3 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Office</div>
+                                        <a href="https://maps.app.goo.gl/41ody3iou2ZpRvSM7"><img class="img-fluid" src="img\index\restaurant gallery\clouds-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Italy</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/41ody3iou2ZpRvSM7">Clouds</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 145, Huanzhong Rd., Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034535316</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.4 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Building</div>
+                                        <a href="https://maps.app.goo.gl/fcBujJXqdrVo8Kmf6"><img class="img-fluid" src="img\index\restaurant gallery\yongxin-tea-stall-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Hong Kong</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/41ody3iou2ZpRvSM7">Yongxin Tea Stall</a>
+                                    <h6 class="mb-3">NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 61, Chengzhang 4th Street, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034341913</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.7 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home</div>
+                                        <a href="https://maps.app.goo.gl/5ecS7sGDuRKv53Du6"><img class="img-fluid" src="img\index\restaurant gallery\zui-shen-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~NTD$ 400</div>
+                                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/5ecS7sGDuRKv53Du6">Zui Shen</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 271, Rongmin Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034629333</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.1 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Shop</div>
+                                        <a href="https://maps.app.goo.gl/qdgWXx7NW1gCdGHg8"><img class="img-fluid" src="img\index\restaurant gallery\mummum-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~NTD$ 400</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">American</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/qdgWXx7NW1gCdGHg8">Mummum</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 73, Section 2, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034623775</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.4 / 5</small>
                                     </div>
                                 </div>
                             </div>
@@ -542,114 +537,108 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div>
+                                        <a href="https://maps.app.goo.gl/EmXcCVoShrkua2sJ6"><img class="img-fluid" src="img\index\restaurant gallery\mr-may-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Italy</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/EmXcCVoShrkua2sJ6">Mr.May</a>
+                                    <h6 class="mb-3">Credit Card、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 626, Huanzhong Rd., Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034622790</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.5 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-2.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Villa</div>
+                                        <a href="https://maps.app.goo.gl/aACYMybF5dZGKHmP6"><img class="img-fluid" src="img\index\restaurant gallery\old-gourmet-house-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Chinese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/aACYMybF5dZGKHmP6">Old Gourmet House</a>
+                                    <h6 class="mb-3">NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 197, Rongmin Road, Zhongli District, Taoyuan City 32071</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034613130</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.5 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-3.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Office</div>
+                                        <a href="https://maps.app.goo.gl/nzoRWZjK84VXkbQM7"><img class="img-fluid" src="img\index\restaurant gallery\yideoku-oshima-kappo-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Japanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/nzoRWZjK84VXkbQM7">Yideoku Oshima Kappo</a>
+                                    <h6 class="mb-3">Credit Card</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 31, Chengzhang 1st Street, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>0910288804</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.1 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-4.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Building</div>
+                                        <a href="https://maps.app.goo.gl/uWYBzMNfUZV9w4pm8"><img class="img-fluid" src="img\index\restaurant gallery\green-garden-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/uWYBzMNfUZV9w4pm8">Green Garden</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 347, Huanzhong Rd., Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034354678</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.0 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-5.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Home</div>
+                                        <a href="https://maps.app.goo.gl/eACqWECD2arEkWxB8"><img class="img-fluid" src="img\index\restaurant gallery\haifeng-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Taiwanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/eACqWECD2arEkWxB8">Haifeng</a>
+                                    <h6 class="mb-3">Credit Card、NFC</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 166, Wenhua Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034551177</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.0 / 5</small>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-6.jpg" alt=""></a>
-                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Rent</div>
-                                        <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Shop</div>
+                                        <a href="https://maps.app.goo.gl/49cjendB1kREz1a7A"><img class="img-fluid" src="img\index\restaurant gallery\jinju-cuisine-1.jpg" alt=""></a>
+                                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 400 up</div>
+                                        <div class="bg-white rounded-top position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Japanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/49cjendB1kREz1a7A">Jinju Cuisine</a>
+                                    <h6 class="mb-3">Cash</h6>
+                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 36, Lane 165, Rongmin Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
                                     <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>034331203</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>4.5 / 5</small>
                                     </div>
                                 </div>
                             </div>
