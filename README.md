@@ -1,6 +1,8 @@
 # YZU-1131-Web-Final-Project
 
-## v0.1.6 feat: Finish Restaurant Gallery in Index Page
+## style: Remove Version Code Producted By Branch
+
+## feat: Finish Restaurant Gallery in Index Page
 
 * Features
     1. Update Gallery Data
