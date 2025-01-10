@@ -1,5 +1,34 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Upload Professor's and Commenters' Img、Update Professor Seciton
+
+* Features
+    1. Uploade Professor Img
+        * Upload `Prefessor-tinin.jpg`
+    2. Upload Comment Img
+        * Upload `Ching-Lueh Chang.jpg`
+        * Upload  `I-Shyan Chang.jpg` 
+        * Upload  `Ji-Cherng.jpg`
+        * Upload `Quang-Thai Ho.jpg`
+        * Upload `Ran-Zan Wang.jpg`
+        * Upload `Shang-Kuan Chen.jpg`
+    3. Modify Comment text 
+        * Template
+            ```html
+            <div class="testimonial-item bg-light rounded p-3">
+                <div class="bg-white border rounded p-4">
+                    <p>[Comment]</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded" src="[Commenter Img]" style="width: 45px; height: 45px;">
+                        <div class="ps-3">
+                            <h6 class="fw-bold mb-1">[Commenter Name]</h6>
+                            <small>[Identity]</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ```
+
 ## style: Remove Version Code Producted By Branch
 
 ## feat: Finish Restaurant Gallery in Index Page

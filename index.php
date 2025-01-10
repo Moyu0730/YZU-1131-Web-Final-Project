@@ -652,14 +652,14 @@
         <!-- Property List End -->
 
 
-        <!-- Call to Action Start -->
+        <!-- Professor Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
+                                <img class="img-fluid rounded w-100" src="img/index/professor-tinin.jpg" alt="">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
@@ -674,7 +674,7 @@
                 </div>
             </div>
         </div>
-        <!-- Call to Action End -->
+        <!-- Professor End -->
 
 
         <!-- Team Start -->
@@ -755,54 +755,109 @@
         <!-- Team End -->
 
 
-        <!-- Testimonial Start -->
+        <!-- Comment Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Our Clients Say!</h1>
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
+
+                <!-- Comment 1 Start -->
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <p> I recently used a website designed for exploring the area around Yuan Ze University, and it was fantastic! The interface was user-friendly, and the detailed map made finding nearby restaurants, cafes, and attractions incredibly easy. It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!  </p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ching-Lueh Chang.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="fw-bold mb-1">Peter</h6>
+                                    <small>Student</small>
                                 </div>
                             </div>
                         </div>
                     </div>
+                <!-- Comment 1 End -->
+
+                <!-- Comment 2 Start -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <p> Yuan Ze University offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\I-Shyan Hwang.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="fw-bold mb-1">Simon</h6>
+                                    <small>Professor</small>
                                 </div>
                             </div>
                         </div>
                     </div>
+                <!-- Comment 2 End -->
+
+                <!-- Comment 3 Start -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p>
+                            <p>This website highlights the charm of Yuan Ze University and its nearby attractions. It’s a fantastic resource for students, visitors, and anyone curious about the area.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ji-Cherng Lin.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Client Name</h6>
-                                    <small>Profession</small>
+                                    <h6 class="fw-bold mb-1">Henry</h6>
+                                    <small>Student</small>
                                 </div>
                             </div>
                         </div>
                     </div>
+                <!-- Comment 3 End -->
+
+                <!-- Comment 4 Start -->
+                <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>The modern facilities at Yuan Ze University create an excellent learning environment. Combined with the lively local community, it’s an ideal place to grow and thrive.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Quang-Thai Ho.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Eric</h6>
+                                    <small>Professor</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Comment 4 End -->
+
+                <!-- Comment 5 Start -->
+                <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>Exploring the shops and cafes near Yuan Ze University is always a delightful experience. They add warmth and vibrancy to the student lifestyle.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ran-Zan Wang.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Andy</h6>
+                                    <small>Professor</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Comment 5 End -->
+
+                <!-- Comment 6 Start -->
+                <div class="testimonial-item bg-light rounded p-3">
+                        <div class="bg-white border rounded p-4">
+                            <p>Yuan Ze University is not only known for its academic achievements but also for its inviting atmosphere. The surrounding area enhances this with its friendly and dynamic vibe.</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Shang-Kuan Chen.jpg" style="width: 45px; height: 45px;">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1">Cindy</h6>
+                                    <small>Student</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Comment 6 End -->
+
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Comment End -->
         
 
         <!-- Footer Start -->
