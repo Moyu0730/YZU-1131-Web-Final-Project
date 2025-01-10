@@ -1,5 +1,34 @@
 # YZU-1131-Web-Final-Project
 
+## v0.1.6 feat: Finish Restaurant Gallery in Index Page
+
+* Features
+    1. Update Gallery Data
+        * Template
+            ```html
+            <div class="col-lg-4 col-md-6">
+                <div class="property-item rounded overflow-hidden">
+                    <div class="position-relative overflow-hidden">
+                        <a href="[Restaurant Google Map Link]"><img class="img-fluid" src="[Restaurant Photo Path]" alt=""></a>
+                        <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">[Reataurant Category]</div>
+                        <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">[Restaurant Type]</div>
+                    </div>
+                    <div class="p-4 pb-0">
+                    <a class="d-block h5 mb-2 text-primary" href="[Restaurant Google Map Link]">[Restaurant Engilsh Name]</a>
+                    <h6 class="mb-3">[Vaild Payment]</h6>
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>[Restaurant Address]</p>
+                    </div>
+                    <div class="d-flex border-top">
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-comment text-primary me-2"></i>[Restaurant TEL]</small>
+                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-star text-primary me-2"></i>[Restaurant Rate]</small>
+                    </div>
+                </div>
+            </div>
+            ```
+    2. Resize img 
+        * Size : 579 px * 434 px
+        * Resized img in `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\index\restaurant gallery`
+
 ## v0.1.5 feat: Update Website Icon、Modify Team Intro Section、Add About Us、Adjust img Classification
 
 * Features
