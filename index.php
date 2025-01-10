@@ -767,9 +767,9 @@
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> I recently used a website designed for exploring the area around Yuan Ze University, and it was fantastic! The interface was user-friendly, and the detailed map made finding nearby restaurants, cafes, and attractions incredibly easy. It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!  </p>
+                            <p> I recently used a website designed for exploring the area around YZU, and it was fantastic! It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ching-Lueh Chang.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ching-Lueh Chang.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Peter</h6>
                                     <small>Student</small>
@@ -782,9 +782,9 @@
                 <!-- Comment 2 Start -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> Yuan Ze University offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
+                            <p> YZU offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\I-Shyan Hwang.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\I-Shyan Hwang.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Simon</h6>
                                     <small>Professor</small>
@@ -799,7 +799,7 @@
                         <div class="bg-white border rounded p-4">
                             <p>This website highlights the charm of Yuan Ze University and its nearby attractions. It’s a fantastic resource for students, visitors, and anyone curious about the area.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ji-Cherng Lin.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ji-Cherng Lin.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Henry</h6>
                                     <small>Student</small>
@@ -814,7 +814,7 @@
                         <div class="bg-white border rounded p-4">
                             <p>The modern facilities at Yuan Ze University create an excellent learning environment. Combined with the lively local community, it’s an ideal place to grow and thrive.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Quang-Thai Ho.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Quang-Thai Ho.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Eric</h6>
                                     <small>Professor</small>
@@ -829,7 +829,7 @@
                         <div class="bg-white border rounded p-4">
                             <p>Exploring the shops and cafes near Yuan Ze University is always a delightful experience. They add warmth and vibrancy to the student lifestyle.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ran-Zan Wang.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ran-Zan Wang.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Andy</h6>
                                     <small>Professor</small>
@@ -842,9 +842,9 @@
                 <!-- Comment 6 Start -->
                 <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p>Yuan Ze University is not only known for its academic achievements but also for its inviting atmosphere. The surrounding area enhances this with its friendly and dynamic vibe.</p>
+                            <p>Yuan Ze University is not only known for its academic achievements but also for its inviting atmosphere. The surrounding area enhances this with its friendly.</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Shang-Kuan Chen.jpg" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Shang-Kuan Chen.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1">Cindy</h6>
                                     <small>Student</small>
