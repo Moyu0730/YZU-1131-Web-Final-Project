@@ -1,6 +1,56 @@
 # YZU-1131-Web-Final-Project
 
-## v0.1.6 feat: Update Website Production Team Info
+## feat: Update Yuan Ze University Gallery、Modify Team Intro Section、Modify Professor Section、Delete About Section
+
+* Features
+    1. Update Yuan Ze University Gallery
+        * Template
+            ```html
+            <!-- [Seciotn Name] -->
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="[Seciotn Link]">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
+                        </div>
+                        <h6> [Seciotn Name]</h6>
+                        <span> [Seciotn Remark]</span>
+                    </div>
+                </a>
+            </div>
+            ```
+    2. Modify Team Intro Section
+        * Change `Bella Yu` into `Yupi Yu`
+    3. Modify Professor Section
+        * Modify Introduction、Name、TEL、Email
+        * Make sure that TEL and MAIL button is available
+    4. Delete About Section
+        * DELETED Code
+            ```html
+            <!-- About Start -->
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                                <img class="img-fluid w-100" src="img/about.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <h1 class="mb-4">#1 Place To Find The Perfect Property</h1>
+                            <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                            <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                            <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+            ```
+
+## feat: Update Website Production Team Info
 
 * Features
     * Aslan
@@ -10,7 +60,7 @@
     * Bella : Update Name
     * Lica : Update Name
 
-## v0.1.5 feat: Update Website Icon、Modify Team Intro Section、Add About Us、Adjust img Classification
+## feat: Update Website Icon、Modify Team Intro Section、Add About Us、Adjust img Classification
 
 * Features
     1. Update Website Icon
@@ -27,7 +77,7 @@
 
 ## github: Merge `moyu` Branch and `addPic` Branch、Update `main` Position
 
-## v0.1.4 feat: ReDesign Restaurant Gallery
+## feat: ReDesign Restaurant Gallery
 
 * Features
     1. Change `For Rent`、`For Sell`、`Features` Into `NTD$ 0 ~ NTD$ 200`、`NTD$ 200 ~ NTD$ 400`、`NTD$ 400 Up`
@@ -59,7 +109,7 @@
         * Sauce-roasted-pork-and-egg-toast-4.jpg
         * yzu-logo.png
 
-## v0.1.3 feat: Modify Footer Info
+## feat: Modify Footer Info
 
 * Features
     1. Change the Info of Get In Touch
@@ -85,7 +135,7 @@
         ```
         </details>
 
-## v0.1.2 feat: Modify Index Header Carousel Pic、Adjust Version Code
+## feat: Modify Index Header Carousel Pic、Adjust Version Code
 
 * Features
     1. Modify Index Header Carousel Pic
@@ -94,9 +144,9 @@
     2. Adjust Version Code
         * New Code：v`[Big Version]`.`[Pages]`.`[Working Progress]`
 
-## v0.1.1 style: Adjust README Layout
+## style: Adjust README Layout
 
-## v0.1.0 feat: Finish Modify Navbar、Change .html Files To .php、Delete Unused Files
+## feat: Finish Modify Navbar、Change .html Files To .php、Delete Unused Files
 
 * Features
     * Finish Modify Navbar
@@ -127,7 +177,7 @@
             1. `LICENSE.txt`
             2. `real-estate-html-template.jpg`
 
-## v0.0.1 Initial ReadME File Message
+## Initial ReadME File Message
 
 1. Initialize Git Repo
     * Commands
@@ -167,7 +217,7 @@
             git push origin main
         ```
 
-## v0.0.0 Initialize
+## Initialize
 
 * Features
     1. Download Website Templete From `Free CSS Templete`
