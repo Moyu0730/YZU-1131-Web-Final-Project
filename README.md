@@ -1,5 +1,33 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Upload YZU Gallery Icons
+
+* Features
+    1. Upoad eight icons into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\search`
+    2. Upload `administrative-unit.jpg`
+    3. Upload `admissions.jpg`
+    4. Upload `calendar.jpg`
+    5. Upload `campus-map.jpg`
+    6. Upload `cse.jpg`
+    7. Upload `library.jpg`
+    8. Upload `portal.jpg`
+    9. Upload `website.jpg`
+    10. Update YZU Gallery Icons
+        * Template 
+            ```html
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admissions/index.php/tw/">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="[YZU Gallery Icon]" alt="Icon">
+                                </div>
+                                <h6>ADMISSIONS</h6>
+                                <span>Admissions Informations</span>
+                            </div>
+                        </a>
+                    </div>
+            ```
+
 ## style: Remove Version Code Producted By Branch
 
 ## feat: Finish Restaurant Gallery in Index Page
