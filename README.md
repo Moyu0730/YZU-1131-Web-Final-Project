@@ -1,5 +1,7 @@
 # YZU-1131-Web-Final-Project
 
+## style: Reformat README.md
+
 ## feat: Upload YZU Gallery Icons
 
 * Features
@@ -13,20 +15,6 @@
     8. Upload `portal.jpg`
     9. Upload `website.jpg`
     10. Update YZU Gallery Icons
-        * Template 
-            ```html
-            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admissions/index.php/tw/">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="[YZU Gallery Icon]" alt="Icon">
-                                </div>
-                                <h6>ADMISSIONS</h6>
-                                <span>Admissions Informations</span>
-                            </div>
-                        </a>
-                    </div>
-            ```
 
 ## style: Remove Version Code Producted By Branch
 
@@ -72,8 +60,8 @@
                         <div class="icon mb-3">
                             <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
                         </div>
-                        <h6> [Seciotn Name]</h6>
-                        <span> [Seciotn Remark]</span>
+                        <h6>[Seciotn Name]</h6>
+                        <span>[Seciotn Remark]</span>
                     </div>
                 </a>
             </div>
