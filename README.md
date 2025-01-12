@@ -2,6 +2,26 @@
 
 ## style: Reformat README.md
 
+## feat: Upload Taoyuan Gallery
+
+* Features
+    1. Upload  eleven pictures into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\taoyuan`
+    2. Upload `bade.jpg`
+    3. Upload `daxi.jpg`
+    4. Upload `dayuan.jpg`
+    5. Upload `fuxing.jpg`
+    6. Upload `guanyin.jpg`
+    7. Upload `guishan.jpg`
+    8. Upload `longtan.jpg`
+    9. Upload `luzhu.jpg`
+    10. Upload `pingzhen.jpg`
+    11. Upload `taoyuan.jpg`
+    12. Upload `xinwu.jpg`
+    13. Upload `yangmei.jpg`
+    14. Upload `zhongli.jpg`
+
+## style: Reformat README.md
+
 ## feat: Upload YZU Gallery Icons
 
 * Features
