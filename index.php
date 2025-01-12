@@ -167,7 +167,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\search\website.jpg" alt="Icon">
                                 </div>
                                 <h6>WEBSITE</h6>
                                 <span>YZU Website Home Page</span>
@@ -180,7 +180,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.cse.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\cse.jpg" alt="Icon">
                                 </div>
                                 <h6>CSE</h6>
                                 <span>CSE Department Home Page</span>
@@ -193,7 +193,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\portal.jpg" alt="Icon">
                                 </div>
                                 <h6>PORTAL</h6>
                                 <span>YZU Portal System</span>
@@ -206,7 +206,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/library/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\library.jpg" alt="Icon">
                                 </div>
                                 <h6>LIBRARY</h6>
                                 <span>YZU School Library Website</span>
@@ -219,7 +219,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admissions/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\admissions.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMISSIONS</h6>
                                 <span>Admissions Informations</span>
@@ -232,7 +232,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/aa/index.php/tw/2016-05-30-06-28-15">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\calendar.jpg" alt="Icon">
                                 </div>
                                 <h6>CALENDAR</h6>
                                 <span>Calendar for Each Year</span>
@@ -245,7 +245,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/ga/index.php/tw/xiao-yuan-ping-mian-tu">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\campus-map.jpg" alt="Icon">
                                 </div>
                                 <h6>CAMPUS MAP</h6>
                                 <span>Campus Map of YZU</span>
@@ -258,7 +258,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/index.php/tw/administrative-unit">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\search\administrative-unit.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMINISTRATIVE UNIT</h6>
                                 <span>Details of Administrative Unit</span>

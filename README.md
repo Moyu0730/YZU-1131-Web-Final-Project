@@ -1,5 +1,41 @@
 # YZU-1131-Web-Final-Project
 
+## style: Reformat README.md
+
+## feat: Upload Taoyuan Gallery
+
+* Features
+    1. Upload  eleven pictures into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\taoyuan`
+    2. Upload `bade.jpg`
+    3. Upload `daxi.jpg`
+    4. Upload `dayuan.jpg`
+    5. Upload `fuxing.jpg`
+    6. Upload `guanyin.jpg`
+    7. Upload `guishan.jpg`
+    8. Upload `longtan.jpg`
+    9. Upload `luzhu.jpg`
+    10. Upload `pingzhen.jpg`
+    11. Upload `taoyuan.jpg`
+    12. Upload `xinwu.jpg`
+    13. Upload `yangmei.jpg`
+    14. Upload `zhongli.jpg`
+
+## style: Reformat README.md
+
+## feat: Upload YZU Gallery Icons
+
+* Features
+    1. Upoad eight icons into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\search`
+    2. Upload `administrative-unit.jpg`
+    3. Upload `admissions.jpg`
+    4. Upload `calendar.jpg`
+    5. Upload `campus-map.jpg`
+    6. Upload `cse.jpg`
+    7. Upload `library.jpg`
+    8. Upload `portal.jpg`
+    9. Upload `website.jpg`
+    10. Update YZU Gallery Icons
+
 ## feat: Upload Professor's and Commenters' Img、Update Professor Seciton
 
 * Features
@@ -73,8 +109,8 @@
                         <div class="icon mb-3">
                             <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
                         </div>
-                        <h6> [Seciotn Name]</h6>
-                        <span> [Seciotn Remark]</span>
+                        <h6>[Seciotn Name]</h6>
+                        <span>[Seciotn Remark]</span>
                     </div>
                 </a>
             </div>
