@@ -10,6 +10,24 @@
         * Reserve Header and Footer
     3. Rename Search File : Change `img/taoyuan` to `img/index/search`
 
+## feat: Add Group Member Info Into Footer
+
+* Features
+    1. Add Group Member Info Into Footer
+        <details>
+        <summary>Added Code</summary>
+            
+        ```html
+        <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Group Member</h5>
+            <p>Full Stack Developer:  Aslan Chen</p>
+            <p>User Interface Designer: Ann Yeh</p>
+            <p>User Experience Designer: Yupi Yu</p>
+            <p>Back End Engineer: Yuan Chen</p>
+        </div>
+        ```
+        </details>
+
 ## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
 
 * Features
