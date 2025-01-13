@@ -38,6 +38,17 @@
         ```
         </details>
 
+## feat: Upload Team Img
+
+* Features
+    1. Upload `ann.jpg`
+    2. Upload `lica.jpg`
+    3. Upload `yupi.jpg`
+    4. Modify Team Member Info
+        * Modify `Twitter link` 
+        * Modify `FB link`
+        * Modify `IG link`
+
 ## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
 
 * Features
