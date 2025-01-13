@@ -1,5 +1,13 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Design Sign In Interface
+
+* Features
+    1. Design Sign In Form
+        * Table Element : User_name、Password
+    2. Design Register Form
+        * Table Element : User_name、Password、Identity、Email、Country、Celephone 
+
 ## feat: Modify Index Header、Create sign.php、Rename Search File
 
 * Features

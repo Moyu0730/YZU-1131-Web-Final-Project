@@ -29,6 +29,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+    </style>
 </head>
 
 <body>
@@ -90,6 +92,7 @@
 
 
         <!-- Header Start -->
+    
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
@@ -114,7 +117,40 @@
             </div>
         </div>
         <!-- Header End -->
-         
+
+
+        <!-- Sign In Start -->
+        <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+            <div style ="width: 40%; height: 600px; background-color: #00b89e;
+                        padding :8% 7%;" name ="Left">
+                <h1 class="display-5 animated fadeIn mb-4" style="text-align: center;">Welcome</h1>
+                <form method = "post" action = "#">
+                    <input type="text" class="form-control border-2 py-3" placeholder="User Name" name="User_name">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Password" name="Password">
+                    <br>
+                    <button type ="submit" class="btn btn-dark border-0 w-100 py-3" id ="SignButton">Sign in</button>
+                    <br>
+                    <br>    
+                    <button type ="submit" class="btn btn-dark border-0 w-100 py-3" id ="ShowRegister">Register</button>
+                </form>
+            </div>
+            <div style ="width: 60%; height: 800px; background-color: white; 
+            padding :10% 7%;" name ="Right">
+            <h1 class="display-5 animated fadeIn mb-4" style="text-align: center;">Create Account</h1>
+                <form method = "post" action = "#">
+                    <input type="text" class="form-control border-2 py-3" placeholder="User Name" name="User_name">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Password" name="Password">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Identity" name="Identity">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Email" name="Email">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Country" name="Country">
+                    <input type="text" class="form-control border-2 py-3" placeholder="Cellphone" name="Cellphone">
+                    <br>
+                    <button type ="submit" class="btn btn-dark border-0 w-100 py-3" id ="RegisterButton">Register</button>
+                </form>
+            </div>
+        </div>
+        <!-- Sign In End -->
+
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
