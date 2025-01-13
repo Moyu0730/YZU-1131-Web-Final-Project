@@ -877,40 +877,39 @@
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+886 03 463 8800</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>yzusaworking@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.yzu.edu.tw/index.php/tw/"><i class="fa fa-globe"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/18U62Bk7bn/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://youtube.com/@yzuaaa?si=gYA4G1yh-C5VG8Fz"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/yzu_ilife?igsh=NTY0ZnUwOGl2aHFt"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <a class="btn btn-link text-white-50" href="index.php">About Us</a>
+                        <a class="btn btn-link text-white-50" href="contact.php">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="search.php">Search Attractions</a>
+                        <a class="btn btn-link text-white-50" href="sign.php">Create Account</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Photo Gallery</h5>
                         <div class="row g-2 pt-2">
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\matchi-korean-cuisine-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\zui-shen-5.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\jinju-cuisine-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\mr-may-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\smiling-fish-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\yongxin-tea-stall-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
