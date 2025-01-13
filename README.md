@@ -1,5 +1,15 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Modify Index Header、Create sign.php、Rename Search File
+
+* Features
+    1. Modify Index Header
+        * Annotation `Eat`、`Play`、`Traffic`、`About Us`
+    2. Create sign.php
+        * Copy From `index.php`
+        * Reserve Header and Footer
+    3. Rename Search File : Change `img/taoyuan` to `img/index/search`
+
 ## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
 
 * Features
