@@ -708,11 +708,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\ann.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href=" https://www.facebook.com/profile.php?id=100009988386114&locale=zh_TW"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/annyeh0406?s=11 "><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/annyeh0406?igsh=aDFjcjVtbXdhMnNr&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -724,11 +724,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\yupi.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.facebook.com/share/15wfGFtXgT/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/yupi_1019?s=11"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/yupi.1019?igsh=MW14aXZpMmh2c3Bnaw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -740,11 +740,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\lica.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.facebook.com/profile.php?id=100068116756054&locale=zh_TW"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/lica_milklover?s=21"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/anan_lica/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
