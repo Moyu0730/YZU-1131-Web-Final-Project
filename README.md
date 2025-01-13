@@ -1,5 +1,22 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
+
+* Features
+    1. Modify YZ Gallery Icon Position : From `img/search` move to `img/index/yz gallery`
+    2. Add A Title To Professor Section
+        <details>
+        <summary>Added Code</summary>
+            
+        ```html
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Website Production Team</h1>
+            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        </div>
+        ```
+        </details>
+    3. Modify Comment Length : All unified into three lines
+
 ## style: Reformat README.md
 
 ## feat: Upload Taoyuan Gallery
@@ -278,9 +295,9 @@
 1. Initialize Git Repo
     * Commands
         ```
-        git inti
-        git clone [Link to your Repo、Ex：https://......git]        -> For Https
-        git clone [Link to your Repo、Ex：git@github.com......git]  -> For SSH
+            git init
+            git clone [Link to your Repo、Ex：https://......git]        -> For Https
+            git clone [Link to your Repo、Ex：git@github.com......git]  -> For SSH
         ```
 2. Github Command
     1. Initilize git repository

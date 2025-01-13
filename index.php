@@ -167,10 +167,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\website.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\website.jpg" alt="Icon">
                                 </div>
                                 <h6>WEBSITE</h6>
-                                <span>YZU Website Home Page</span>
+                                <span>Official Website</span>
                             </div>
                         </a>
                     </div>
@@ -180,10 +180,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.cse.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\cse.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\cse.jpg" alt="Icon">
                                 </div>
                                 <h6>CSE</h6>
-                                <span>CSE Department Home Page</span>
+                                <span>CSE Department</span>
                             </div>
                         </a>
                     </div>
@@ -193,7 +193,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\portal.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\portal.jpg" alt="Icon">
                                 </div>
                                 <h6>PORTAL</h6>
                                 <span>YZU Portal System</span>
@@ -206,10 +206,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/library/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\library.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\library.jpg" alt="Icon">
                                 </div>
                                 <h6>LIBRARY</h6>
-                                <span>YZU School Library Website</span>
+                                <span>School Library Website</span>
                             </div>
                         </a>
                     </div>
@@ -219,7 +219,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admissions/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\admissions.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\admissions.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMISSIONS</h6>
                                 <span>Admissions Informations</span>
@@ -232,7 +232,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/aa/index.php/tw/2016-05-30-06-28-15">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\calendar.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\calendar.jpg" alt="Icon">
                                 </div>
                                 <h6>CALENDAR</h6>
                                 <span>Calendar for Each Year</span>
@@ -245,7 +245,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/ga/index.php/tw/xiao-yuan-ping-mian-tu">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\campus-map.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\campus-map.jpg" alt="Icon">
                                 </div>
                                 <h6>CAMPUS MAP</h6>
                                 <span>Campus Map of YZU</span>
@@ -258,10 +258,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/index.php/tw/administrative-unit">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img\search\administrative-unit.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\administrative-unit.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMINISTRATIVE UNIT</h6>
-                                <span>Details of Administrative Unit</span>
+                                <span>More Details</span>
                             </div>
                         </a>
                     </div>
@@ -339,12 +339,12 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/DMtscWRwwPpbRaMF6"><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
                                         <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Italy</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/fkTSPU2p5iZhxHEu8">Muti Italian Kitchen</a>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/DMtscWRwwPpbRaMF6">Muti Italian Kitchen</a>
                                     <h6 class="mb-3">Cash</h6>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 202, Section 1, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
@@ -657,6 +657,10 @@
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <h1 class="mb-3">Website Production Team</h1>
+                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                        </div>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                 <img class="img-fluid rounded w-100" src="img/index/professor-tinin.jpg" alt="">
@@ -767,7 +771,7 @@
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> I recently used a website designed for exploring the area around Yuan Ze University, and it was fantastic! The interface was user-friendly, and the detailed map made finding nearby restaurants, cafes, and attractions incredibly easy. It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!  </p>
+                            <p>I recently used a website designed for exploring the area around YZU, and it was fantastic! It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ching-Lueh Chang.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
@@ -782,7 +786,7 @@
                 <!-- Comment 2 Start -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> Yuan Ze University offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
+                            <p>YZU offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\I-Shyan Hwang.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
@@ -842,7 +846,7 @@
                 <!-- Comment 6 Start -->
                 <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p>Yuan Ze University is not only known for its academic achievements but also for its inviting atmosphere. The surrounding area enhances this with its friendly and dynamic vibe.</p>
+                            <p>Yuan Ze University is not only known for its academic achievements but also for its inviting atmosphere. The surrounding area enhances this with its friendly.</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Shang-Kuan Chen.jpg" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
