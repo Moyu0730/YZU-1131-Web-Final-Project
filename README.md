@@ -1,5 +1,7 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Modify Title And Content of Header, Restaurant Gallery, Professor, YZ Gallery, Team And Comment Section
+
 ## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
 
 * Features
