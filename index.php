@@ -93,9 +93,9 @@
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                    <h1 class="display-5 animated fadeIn mb-4">Welcome To Our Website <span class="text-primary">Explore YZU</span></h1>
+                    <p class="animated fadeIn mb-4 pb-2">Discover everything Yuan Ze University has to offer through our website! Whether you're looking for the best dining spots, 
+                        exciting activities, or simply want to learn more about the campus, we’ve got you covered. Start exploring now and make the most of your YZU experience!</p>
                     <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
@@ -222,7 +222,7 @@
                                     <img class="img-fluid" src="img\index\yz gallery\admissions.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMISSIONS</h6>
-                                <span>Admissions Informations</span>
+                                <span>More Details</span>
                             </div>
                         </a>
                     </div>
@@ -260,7 +260,7 @@
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="img\index\yz gallery\administrative-unit.jpg" alt="Icon">
                                 </div>
-                                <h6>ADMINISTRATIVE UNIT</h6>
+                                <h6>ADMINISTRATION</h6>
                                 <span>More Details</span>
                             </div>
                         </a>
@@ -277,7 +277,9 @@
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
                             <h1 class="mb-3">Restaurant Gallery</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
+                            <p>Explore the delicious food around Yuan Ze University! We’ve categorized the best dining options into three 
+                                price ranges to suit every budget: affordable meals under NTD$200, mid-range delights from NTD$200 to NTD$400, 
+                                and premium dining experiences above NTD$400. Find your next favorite spot today!</p>
                         </div>
                     </div>
                     <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
@@ -658,8 +660,8 @@
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <h1 class="mb-3">Website Production Team</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                            <h1 class="mb-3">Meet Our Advisor</h1>
+                            <p>Here is our supervisor, who plays a crucial role in guiding and supporting our team. With their expertise and valuable insights, they help us stay on track, refine our ideas, and achieve our objectives efficiently. We’re grateful for their mentorship and leadership throughout the process.</p>
                         </div>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -686,7 +688,8 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Website Production Team</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>There are our team members, each bringing unique skills and perspectives to the group. Together, we collaborate 
+                        to tackle challenges,finish the project together.</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -764,7 +767,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Our Clients Say!</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>There are some feedbacks from our clients, and we sincerely value their insights. Their input helps us improve and provide a better experience for everyone.</p>
                 </div>
 
                 <!-- Comment 1 Start -->
@@ -870,7 +873,7 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No.135 Yuan-Tung Road, Chung-Li</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No.135 Yuan-Tung Road</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+886 03 463 8800</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>yzusaworking@gmail.com</p>
                         <div class="d-flex pt-2">

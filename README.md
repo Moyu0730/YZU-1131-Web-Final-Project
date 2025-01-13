@@ -1,5 +1,7 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Modify Title And Content of Header, Restaurant Gallery, Professor, YZ Gallery, Team And Comment Section
+
 ## feat: Design Sign In Interface
 
 * Features
