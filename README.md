@@ -1,5 +1,7 @@
 # YZU-1131-Web-Final-Project
 
+# v1.0 Website Finish
+
 ## feat: Finish Sign Page、Remove Contact Page and Search Page
 
 ## feat: Adjust Front-End of Sign Page、Remove Unused Image
