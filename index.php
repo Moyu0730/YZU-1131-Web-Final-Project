@@ -1,3 +1,8 @@
+<?php 
+    define("FIVE_DAYS", 60 * 60 * 24 * 5);
+    setcookie("account", '', time() + FIVE_DAYS ); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,26 +68,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <!-- <a href="eat.php" class="nav-item nav-link">Eat</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Play</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="property-list.php" class="dropdown-item">Property List</a>
-                                <a href="property-type.php" class="dropdown-item">Property Type</a>
-                                <a href="property-agent.php" class="dropdown-item">Property Agent</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traffic</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                <a href="404.php" class="dropdown-item">404 Error</a>
-                            </div>
-                        </div>
-                        <a href="about.php" class="nav-item nav-link">About Us</a> -->
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        
                     </div>
-                    <a href="sign.php" class="btn btn-primary px-3 d-none d-lg-flex">Sign In</a>
+                    
+                    <?php
+                            if( isset($_COOKIE["account"]) && !empty($_COOKIE["account"]) ){
+                                echo '<a href="signout.php" class="btn btn-primary px-3 d-none d-lg-flex">' . htmlspecialchars($_COOKIE['account']) . '</a>';
+                            } else {
+                                echo '<a href="sign.php" class="btn btn-primary px-3 d-none d-lg-flex">Sign</a>';
+                            }
+                        ?>
                 </div>
             </nav>
         </div>
@@ -90,7 +85,7 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
+        <div class="container-fluid header bg-light p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">Welcome To Our Website <span class="text-primary">Explore YZU</span></h1>
@@ -117,7 +112,7 @@
 
 
         <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+        <!-- <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-md-10">
@@ -148,7 +143,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Search End -->
          
 
@@ -886,9 +881,9 @@
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
                         <a class="btn btn-link text-white-50" href="index.php">About Us</a>
-                        <a class="btn btn-link text-white-50" href="contact.php">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="search.php">Search Attractions</a>
-                        <a class="btn btn-link text-white-50" href="sign.php">Create Account</a>
+                        <!-- <a class="btn btn-link text-white-50" href="contact.php">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="search.php">Search Attractions</a> -->
+                        <a class="btn btn-link text-white-50" href="sign.php">Sign</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Photo Gallery</h5>
@@ -948,7 +943,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
+    </div>  
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

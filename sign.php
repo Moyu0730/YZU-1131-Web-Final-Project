@@ -29,6 +29,67 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script>
+        function create() {
+            var account = $("#signin-account").val();
+            var password = $("#signin-password").val();
+            $.ajax({
+                url: "create.php",
+                data: { account: account, password: password },
+                type: "POST",
+                datatype: "html",
+                success: function( output ) { $( "#create" ).html(output); },
+                error: function(){ alert( "Request failed." ); }
+            });
+        }
+
+        function signIn() {
+            var account = $("#signin-account").val();
+            var password = $("#signin-password").val();
+
+            $.ajax({
+                url: "signin.php",
+                data: { account: account, password: password },
+                type: "POST",
+                datatype: "html",
+                success: function( output ) {
+                    if( output == 'Invalid Input' ){
+                        alert("Invalid Input. Please Try Again.");
+                    }else if( output == 'Not Found' ){
+                        alert("Account Not Found. Please Try Again.");
+                    }else if( output == 'Found' ){
+                        alert("Sign In Successfully.");
+                        window.location.replace("index.php"); 
+                    }
+                },
+                error: function(){ alert( "Request failed." ); }
+            });
+        }
+
+        function signUp() {
+            var account = $("#create-account").val();
+            var password = $("#create-password").val();
+            var phone = $("#create-phone").val();
+            var email = $("#create-email").val();
+            var identity = $("#create-identity").val();
+
+            $.ajax({
+                url: "signup.php",
+                data: { account: account, password: password, phone: phone, email: email, identity: identity },
+                type: "POST",
+                datatype: "html",
+                success: function( output ) {
+                    if( output == 'Invalid Input' ){
+                        alert("Invalid Input. Please Try Again.");
+                    }else{
+                        alert("Sign Up Successfully.");
+                        window.location.replace("index.php"); 
+                    }
+                },
+                error: function(){ alert( "Request failed." ); }
+            });
+        }
+    </script>
     <style type = "text/css">
         .outer {
             position: absolute;
@@ -85,31 +146,32 @@
             <div style ="width: 40%; height: 85%; margin-left: auto; align-content: center; flex-wrap: wrap;">
                 <div class="" style ="width: 95%; height: 90%; margin-left: auto; padding: 7.5%; background-color: rgb(49, 64, 101, 0.8); align-content: center; flex-wrap: wrap; flex: right; border-radius: 10px 0px 0px 10px">
                     <h1 class="animated fadeIn mb-4" style="text-align: left; font-size: 50px; color: white">Welcome</h1>
-                    <form method="post" action="#">
-                        <div class="row g-2">
-                            <div class="mb-10" style="height: 60px;">
-                                <input style="background-color: white !important" name="user-account" type="text" class="form-control bg-light border-0 py-3" placeholder="Account" pattern="[a-zA-Z0-9]{3,20}" required>
-                            </div>
-                            
-                            <div class="mb-4" style="height: 60px;">
-                                <input style="background-color: white !important" name="user-password" type="password" class="form-control bg-light border-0 py-3" placeholder="Password" pattern="[A-Za-z0-9]{10}" required>
-                            </div>
-                            
-                            <div class="mb-4" style="height: 60px;" style="text-align: center;">
-                                <button class="btn py-3 sign-in" style="color: white; font-size: 18px; float: right; width: 50%; border-width: 2px; border-color: white; border-radius: 40px" onclick="signIn()">Sign In</button>
-                            </div>
+                    <div class="row g-2">
+                        <div class="mb-10" style="height: 60px;">
+                            <input style="background-color: white !important" id="signin-account" type="text" class="form-control bg-light border-0 py-3" placeholder="Account" pattern="[a-zA-Z0-9]{3,20}" required>
                         </div>
-                    </form>
+                        
+                        <div class="mb-4" style="height: 60px;">
+                            <input style="background-color: white !important" id="signin-password" type="password" class="form-control bg-light border-0 py-3" placeholder="Password" pattern="[A-Za-z0-9]{6,12}" required>
+                        </div>
+                        
+                        <div class="" style="height: 60px;">
+                            <div style="width: 50%; height: 100%; float: left; align-content: center; flex-wrap: wrap;">
+                            </div>
+                            <!-- <div style="width: 10%; height: 60px; float: left;"></div> -->
+                            <button class="btn py-3 sign-in" style="color: white; font-size: 18px; float: right; width: 50%; border-width: 2px; border-color: white; border-radius: 40px" onclick="signIn()">Sign In</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Left Side End -->
 
             <!-- Right Side Start -->
             <div style ="width: 50%; height: 85%; margin-right: auto; align-content: center; flex-wrap: wrap;">
-                <div class="" style ="width: 95%; height: 90%; margin-right: auto; padding: 5%; background-color: rgb(255, 255, 255, 0.8); text-align: center; align-content: center; flex-wrap: wrap; flex: right; border-radius: 0px 10px 10px 0px">
+                <div class="" id="create" style="width: 95%; height: 90%; margin-right: auto; background-color: rgb(255, 255, 255, 0.8); text-align: center; align-content: center; flex-wrap: wrap; flex: right; border-radius: 0px 10px 10px 0px">
                     <h1 class="animated fadeIn mb-4" style="font-size: 50px;">Create An Account</h1>
                     <div class="mb-4" style="height: 60px;" style="align-content: center; flex-wrap: wrap;">
-                        <button class="btn py-3 create" style="background-color:rgb(250, 176, 39); color: white; font-size: 22.5px; width: 40%; border-width: 2px; border-color: rgb(250, 176, 39); border-radius: 40px" onclick="signUp()">Create Now</button>
+                        <button class="btn py-3 create" style="background-color:rgb(250, 176, 39); color: white; font-size: 22.5px; width: 40%; border-width: 2px; border-color: rgb(250, 176, 39); border-radius: 40px" onclick="create()">Create Now</button>
                     </div>
                 </div>
             </div>
