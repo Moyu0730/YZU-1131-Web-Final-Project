@@ -1,5 +1,20 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Finish Front-End of Design Sign Page
+
+* Features
+    1. Remove NavBar、Header、Foter Section
+    2. Add Home Button Instead of Navbar
+        <details>
+        <summary>Home Button Code</summary>
+            
+        ```html
+        <a href="index.php" class="btn btn-lg btn-lg-square back-to-home" style="width: 125px; height: 45px; border-radius: 5px; background-color: #314065; color: white; position: absolute; right: 10px; bottom: 10px;"><i class="fa fa-home"></i>&nbsp; Home</a>
+        ```
+        </details>
+    3. Haven't Add Ajex Part -> Ready to do
+        
+
 ## feat: Remove Unused File
 
 * Features
