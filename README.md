@@ -1,5 +1,155 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Finish Sign Page、Remove Contact Page and Search Page
+
+## feat: Adjust Front-End of Sign Page、Remove Unused Image
+
+* Features
+    1. Adjust Front-End of Sign Page
+        * Change Background Color Into Beckground Image（`img/sign-background.php`）
+        * Change Div Background Transparency Into 0.8
+    2. Remove Unused Image
+
+## feat: Finish Design Front-End of Sign Page
+
+* Features
+    1. Remove NavBar、Header、Foter Section
+    2. Add Home Button Instead of Navbar
+        <details>
+        <summary>Home Button Code</summary>
+            
+        ```html
+        <a href="index.php" class="btn btn-lg btn-lg-square back-to-home" style="width: 125px; height: 45px; border-radius: 5px; background-color: #314065; color: white; position: absolute; right: 10px; bottom: 10px;"><i class="fa fa-home"></i>&nbsp; Home</a>
+        ```
+        </details>
+    3. Haven't Add Ajex Part -> Ready to do
+        
+
+## feat: Remove Unused File
+
+* Features
+    1. Removed File : `property-agent.php`、`property-list.php`、`property-type.php`、`about.php`、`eat.php`、`testimonial.php`
+
+## feat: Modify Footer/Get In Touch, Quick Links And Photo Gallery
+
+* Features
+    1. Modify Link And Icon In Footer/Get In Touch
+        ```html 
+        <a class="btn btn-outline-light btn-social" href="[Social Media Link]"><i class="[Social Media fa]"></i></a>
+        ```
+    2. Modify Link And Title In Footer/Quick Links
+        ```html 
+        <a class="btn btn-link text-white-50" href="[Link To Other Page]">[Link Name]</a>
+        ```
+    3. Switch Photo In Footer/Photo Gallery
+        ```html
+        <div class="col-4">
+            <img class="img-fluid rounded bg-light p-1" src="[Photo Path]" alt="">
+        </div>
+        ```
+
+## feat: Modify Title And Content of Header, Restaurant Gallery, Professor, YZ Gallery, Team And Comment Section
+
+## feat: Design Sign In Interface
+
+* Features
+    1. Design Sign In Form
+        * Table Element : User_name、Password
+    2. Design Register Form
+        * Table Element : User_name、Password、Identity、Email、Country、Celephone 
+
+## feat: Modify Index Header、Create sign.php、Rename Search File
+
+* Features
+    1. Modify Index Header
+        * Annotation `Eat`、`Play`、`Traffic`、`About Us`
+    2. Create sign.php
+        * Copy From `index.php`
+        * Reserve Header and Footer
+    3. Rename Search File : Change `img/taoyuan` to `img/index/search`
+
+## feat: Add Group Member Info Into Footer
+
+* Features
+    1. Add Group Member Info Into Footer
+        <details>
+        <summary>Added Code</summary>
+            
+        ```html
+        <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Group Member</h5>
+            <p>Full Stack Developer:  Aslan Chen</p>
+            <p>User Interface Designer: Ann Yeh</p>
+            <p>User Experience Designer: Yupi Yu</p>
+            <p>Back End Engineer: Yuan Chen</p>
+        </div>
+        ```
+        </details>
+
+## feat: Upload Team Img
+
+* Features
+    1. Upload `ann.jpg`
+    2. Upload `lica.jpg`
+    3. Upload `yupi.jpg`
+    4. Modify Team Member Info
+        * Modify `Twitter link` 
+        * Modify `FB link`
+        * Modify `IG link`
+
+## feat: Modify YZ Gallery Icon Position、Add A Title To Professor Section、Modify Comment Length｜style: Reformat README.md
+
+* Features
+    1. Modify YZ Gallery Icon Position : From `img/search` move to `img/index/yz gallery`
+    2. Add A Title To Professor Section
+        <details>
+        <summary>Added Code</summary>
+            
+        ```html
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Website Production Team</h1>
+            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+        </div>
+        ```
+        </details>
+    3. Modify Comment Length : All unified into three lines
+
+## style: Reformat README.md
+
+## feat: Upload Taoyuan Gallery
+
+* Features
+    1. Upload  eleven pictures into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\taoyuan`
+    2. Upload `bade.jpg`
+    3. Upload `daxi.jpg`
+    4. Upload `dayuan.jpg`
+    5. Upload `fuxing.jpg`
+    6. Upload `guanyin.jpg`
+    7. Upload `guishan.jpg`
+    8. Upload `longtan.jpg`
+    9. Upload `luzhu.jpg`
+    10. Upload `pingzhen.jpg`
+    11. Upload `taoyuan.jpg`
+    12. Upload `xinwu.jpg`
+    13. Upload `yangmei.jpg`
+    14. Upload `zhongli.jpg`
+
+## style: Reformat README.md
+
+## feat: Upload YZU Gallery Icons
+
+* Features
+    1. Upoad eight icons into `C:\xampp\htdocs\final\YZU-1131-Web-Final-Project\img\search`
+    2. Upload `administrative-unit.jpg`
+    3. Upload `admissions.jpg`
+    4. Upload `calendar.jpg`
+    5. Upload `campus-map.jpg`
+    6. Upload `cse.jpg`
+    7. Upload `library.jpg`
+    8. Upload `portal.jpg`
+    9. Upload `website.jpg`
+    10. Update YZU Gallery Icons
+
 ## feat: Modify Comment To Fit the Section
 
 ## feat: Upload Professor's and Commenters' Img、Update Professor Seciton
@@ -75,8 +225,8 @@
                         <div class="icon mb-3">
                             <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
                         </div>
-                        <h6> [Seciotn Name]</h6>
-                        <span> [Seciotn Remark]</span>
+                        <h6>[Seciotn Name]</h6>
+                        <span>[Seciotn Remark]</span>
                     </div>
                 </a>
             </div>
@@ -244,9 +394,9 @@
 1. Initialize Git Repo
     * Commands
         ```
-        git inti
-        git clone [Link to your Repo、Ex：https://......git]        -> For Https
-        git clone [Link to your Repo、Ex：git@github.com......git]  -> For SSH
+            git init
+            git clone [Link to your Repo、Ex：https://......git]        -> For Https
+            git clone [Link to your Repo、Ex：git@github.com......git]  -> For SSH
         ```
 2. Github Command
     1. Initilize git repository

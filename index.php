@@ -1,3 +1,8 @@
+<?php 
+    define("FIVE_DAYS", 60 * 60 * 24 * 5);
+    setcookie("account", '', time() + FIVE_DAYS ); 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,26 +68,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.php" class="nav-item nav-link active">Home</a>
-                        <a href="eat.php" class="nav-item nav-link">Eat</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Play</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="property-list.php" class="dropdown-item">Property List</a>
-                                <a href="property-type.php" class="dropdown-item">Property Type</a>
-                                <a href="property-agent.php" class="dropdown-item">Property Agent</a>
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traffic</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
-                                <a href="404.php" class="dropdown-item">404 Error</a>
-                            </div>
-                        </div>
-                        <a href="about.php" class="nav-item nav-link">About Us</a>
-                        <a href="contact.php" class="nav-item nav-link">Contact</a>
+                        
                     </div>
-                    <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Sign In</a>
+                    
+                    <?php
+                            if( isset($_COOKIE["account"]) && !empty($_COOKIE["account"]) ){
+                                echo '<a href="signout.php" class="btn btn-primary px-3 d-none d-lg-flex">' . htmlspecialchars($_COOKIE['account']) . '</a>';
+                            } else {
+                                echo '<a href="sign.php" class="btn btn-primary px-3 d-none d-lg-flex">Sign</a>';
+                            }
+                        ?>
                 </div>
             </nav>
         </div>
@@ -90,12 +85,12 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
+        <div class="container-fluid header bg-light p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                    <h1 class="display-5 animated fadeIn mb-4">Welcome To Our Website <span class="text-primary">Explore YZU</span></h1>
+                    <p class="animated fadeIn mb-4 pb-2">Discover everything Yuan Ze University has to offer through our website! Whether you're looking for the best dining spots, 
+                        exciting activities, or simply want to learn more about the campus, we’ve got you covered. Start exploring now and make the most of your YZU experience!</p>
                     <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
@@ -117,7 +112,7 @@
 
 
         <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+        <!-- <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
             <div class="container">
                 <div class="row g-2">
                     <div class="col-md-10">
@@ -148,7 +143,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Search End -->
          
 
@@ -167,10 +162,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="./img/index/yz gallery/about.jpg" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\website.jpg" alt="Icon">
                                 </div>
                                 <h6>WEBSITE</h6>
-                                <span>YZU Website Home Page</span>
+                                <span>Official Website</span>
                             </div>
                         </a>
                     </div>
@@ -180,10 +175,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.cse.yzu.edu.tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\cse.jpg" alt="Icon">
                                 </div>
                                 <h6>CSE</h6>
-                                <span>CSE Department Home Page</span>
+                                <span>CSE Department</span>
                             </div>
                         </a>
                     </div>
@@ -193,7 +188,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://portalx.yzu.edu.tw/PortalSocialVB/Login.aspx">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\portal.jpg" alt="Icon">
                                 </div>
                                 <h6>PORTAL</h6>
                                 <span>YZU Portal System</span>
@@ -206,10 +201,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/library/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\library.jpg" alt="Icon">
                                 </div>
                                 <h6>LIBRARY</h6>
-                                <span>YZU School Library Website</span>
+                                <span>School Library Website</span>
                             </div>
                         </a>
                     </div>
@@ -219,10 +214,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admissions/index.php/tw/">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\admissions.jpg" alt="Icon">
                                 </div>
                                 <h6>ADMISSIONS</h6>
-                                <span>Admissions Informations</span>
+                                <span>More Details</span>
                             </div>
                         </a>
                     </div>
@@ -232,7 +227,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/aa/index.php/tw/2016-05-30-06-28-15">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\calendar.jpg" alt="Icon">
                                 </div>
                                 <h6>CALENDAR</h6>
                                 <span>Calendar for Each Year</span>
@@ -245,7 +240,7 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/admin/ga/index.php/tw/xiao-yuan-ping-mian-tu">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\campus-map.jpg" alt="Icon">
                                 </div>
                                 <h6>CAMPUS MAP</h6>
                                 <span>Campus Map of YZU</span>
@@ -258,10 +253,10 @@
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="https://www.yzu.edu.tw/index.php/tw/administrative-unit">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                    <img class="img-fluid" src="img\index\yz gallery\administrative-unit.jpg" alt="Icon">
                                 </div>
-                                <h6>ADMINISTRATIVE UNIT</h6>
-                                <span>Details of Administrative Unit</span>
+                                <h6>ADMINISTRATION</h6>
+                                <span>More Details</span>
                             </div>
                         </a>
                     </div>
@@ -277,7 +272,9 @@
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
                             <h1 class="mb-3">Restaurant Gallery</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
+                            <p>Explore the delicious food around Yuan Ze University! We’ve categorized the best dining options into three 
+                                price ranges to suit every budget: affordable meals under NTD$200, mid-range delights from NTD$200 to NTD$400, 
+                                and premium dining experiences above NTD$400. Find your next favorite spot today!</p>
                         </div>
                     </div>
                     <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
@@ -339,12 +336,12 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/DMtscWRwwPpbRaMF6"><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 0 ~ NTD$ 200</div>
                                         <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Italy</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/fkTSPU2p5iZhxHEu8">Muti Italian Kitchen</a>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/DMtscWRwwPpbRaMF6">Muti Italian Kitchen</a>
                                     <h6 class="mb-3">Cash</h6>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 202, Section 1, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
@@ -657,6 +654,10 @@
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <h1 class="mb-3">Meet Our Advisor</h1>
+                            <p>Here is our supervisor, who plays a crucial role in guiding and supporting our team. With their expertise and valuable insights, they help us stay on track, refine our ideas, and achieve our objectives efficiently. We’re grateful for their mentorship and leadership throughout the process.</p>
+                        </div>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                 <img class="img-fluid rounded w-100" src="img/index/professor-tinin.jpg" alt="">
@@ -682,7 +683,8 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Website Production Team</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>There are our team members, each bringing unique skills and perspectives to the group. Together, we collaborate 
+                        to tackle challenges,finish the project together.</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -704,11 +706,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\ann.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href=" https://www.facebook.com/profile.php?id=100009988386114&locale=zh_TW"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/annyeh0406?s=11 "><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/annyeh0406?igsh=aDFjcjVtbXdhMnNr&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -720,11 +722,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\yupi.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.facebook.com/share/15wfGFtXgT/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/yupi_1019?s=11"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/yupi.1019?igsh=MW14aXZpMmh2c3Bnaw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -736,11 +738,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="img\index\team\lica.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.facebook.com/profile.php?id=100068116756054&locale=zh_TW"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://x.com/lica_milklover?s=21"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/anan_lica/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -760,14 +762,14 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Our Clients Say!</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>There are some feedbacks from our clients, and we sincerely value their insights. Their input helps us improve and provide a better experience for everyone.</p>
                 </div>
 
                 <!-- Comment 1 Start -->
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> I recently used a website designed for exploring the area around YZU, and it was fantastic! It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!</p>
+                            <p>I recently used a website designed for exploring the area around YZU, and it was fantastic! It's a must-try for anyone looking to navigate and enjoy the surroundings effortlessly!</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\Ching-Lueh Chang.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
@@ -782,7 +784,7 @@
                 <!-- Comment 2 Start -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
-                            <p> YZU offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
+                            <p>YZU offers a perfect blend of academic excellence and vibrant campus life. Its surrounding area is filled with great stores and restaurants that make student life even more enjoyable.</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="img\index\comment\I-Shyan Hwang.jpg" style="width: 60px; height: 60px;">
                                 <div class="ps-3">
@@ -866,54 +868,52 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No.135 Yuan-Tung Road, Chung-Li</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No.135 Yuan-Tung Road</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+886 03 463 8800</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>yzusaworking@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.yzu.edu.tw/index.php/tw/"><i class="fa fa-globe"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/18U62Bk7bn/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://youtube.com/@yzuaaa?si=gYA4G1yh-C5VG8Fz"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/yzu_ilife?igsh=NTY0ZnUwOGl2aHFt"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="">About Us</a>
-                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
-                        <a class="btn btn-link text-white-50" href="">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <a class="btn btn-link text-white-50" href="index.php">About Us</a>
+                        <!-- <a class="btn btn-link text-white-50" href="contact.php">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="search.php">Search Attractions</a> -->
+                        <a class="btn btn-link text-white-50" href="sign.php">Sign</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Photo Gallery</h5>
                         <div class="row g-2 pt-2">
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-1.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\matchi-korean-cuisine-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-2.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\zui-shen-5.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-3.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\jinju-cuisine-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-4.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\mr-may-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-5.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\smiling-fish-1.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <img class="img-fluid rounded bg-light p-1" src="img/property-6.jpg" alt="">
+                                <img class="img-fluid rounded bg-light p-1" src="img\index\restaurant gallery\yongxin-tea-stall-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignIn</button>
-                        </div>
+                        <h5 class="text-white mb-4">Group Member</h5>
+                        <p>Full Stack Developer:  Aslan Chen</p>
+                        <p>User Interface Designer: Ann Yeh</p>
+                        <p>User Experience Designer: Yupi Yu</p>
+                        <p>Back End Engineer: Yuan Chen</p>
                     </div>
                 </div>
             </div>
@@ -943,7 +943,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
+    </div>  
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
