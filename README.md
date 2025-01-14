@@ -1,5 +1,23 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Modify Footer/Get In Touch, Quick Links And Photo Gallery
+
+* Features
+    1. Modify Link And Icon In Footer/Get In Touch
+        ```html 
+        <a class="btn btn-outline-light btn-social" href="[Social Media Link]"><i class="[Social Media fa]"></i></a>
+        ```
+    2. Modify Link And Title In Footer/Quick Links
+        ```html 
+        <a class="btn btn-link text-white-50" href="[Link To Other Page]">[Link Name]</a>
+        ```
+    3. Switch Photo In Footer/Photo Gallery
+        ```html
+        <div class="col-4">
+            <img class="img-fluid rounded bg-light p-1" src="[Photo Path]" alt="">
+        </div>
+        ```
+
 ## feat: Modify Title And Content of Header, Restaurant Gallery, Professor, YZ Gallery, Team And Comment Section
 
 ## feat: Design Sign In Interface
