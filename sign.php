@@ -30,10 +30,6 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style type = "text/css">
-        body  { 
-            background-color: white;
-        }
-
         .outer {
             position: absolute;
             position: fixed;
@@ -71,7 +67,7 @@
 </head>
 
 <body>
-    <div class="bg-primary wow fadeIn row g-0 align-items-center outer" style ="align-content: center; flex-wrap: wrap;">
+    <div class="wow fadeIn row g-0 align-items-center outer" style ="background-image: url('./img/sign-background.jpg'); align-content: center; flex-wrap: wrap;">
 
 
         <!-- Spinner Start -->
@@ -87,7 +83,7 @@
 
             <!-- Left Side Start -->
             <div style ="width: 40%; height: 85%; margin-left: auto; align-content: center; flex-wrap: wrap;">
-                <div class="" style ="width: 95%; height: 90%; margin-left: auto; padding: 7.5%; background-color: #314065; align-content: center; flex-wrap: wrap; flex: right; border-radius: 10px 0px 0px 10px">
+                <div class="" style ="width: 95%; height: 90%; margin-left: auto; padding: 7.5%; background-color: rgb(49, 64, 101, 0.8); align-content: center; flex-wrap: wrap; flex: right; border-radius: 10px 0px 0px 10px">
                     <h1 class="animated fadeIn mb-4" style="text-align: left; font-size: 50px; color: white">Welcome</h1>
                     <form method="post" action="#">
                         <div class="row g-2">
@@ -100,7 +96,7 @@
                             </div>
                             
                             <div class="mb-4" style="height: 60px;" style="text-align: center;">
-                                <button class="btn py-3 sign-in" style="color: white; font-size: 18px; float: right; width: 50%; border: 1%; border-color: white; border-radius: 40px" onclick="signIn()">Sign In</button>
+                                <button class="btn py-3 sign-in" style="color: white; font-size: 18px; float: right; width: 50%; border-width: 2px; border-color: white; border-radius: 40px" onclick="signIn()">Sign In</button>
                             </div>
                         </div>
                     </form>
@@ -110,10 +106,10 @@
 
             <!-- Right Side Start -->
             <div style ="width: 50%; height: 85%; margin-right: auto; align-content: center; flex-wrap: wrap;">
-                <div class="" style ="width: 95%; height: 90%; margin-right: auto; padding: 5%; background-color: white; text-align: center; align-content: center; flex-wrap: wrap; flex: right; border-radius: 0px 10px 10px 0px">
+                <div class="" style ="width: 95%; height: 90%; margin-right: auto; padding: 5%; background-color: rgb(255, 255, 255, 0.8); text-align: center; align-content: center; flex-wrap: wrap; flex: right; border-radius: 0px 10px 10px 0px">
                     <h1 class="animated fadeIn mb-4" style="font-size: 50px;">Create An Account</h1>
                     <div class="mb-4" style="height: 60px;" style="align-content: center; flex-wrap: wrap;">
-                        <button class="btn py-3 create" style="background-color:rgb(250, 176, 39); color: white; font-size: 22.5px; width: 40%; border: 1%; border-color: rgb(250, 176, 39); border-radius: 40px" onclick="signIn()">Create Now</button>
+                        <button class="btn py-3 create" style="background-color:rgb(250, 176, 39); color: white; font-size: 22.5px; width: 40%; border-width: 2px; border-color: rgb(250, 176, 39); border-radius: 40px" onclick="signUp()">Create Now</button>
                     </div>
                 </div>
             </div>

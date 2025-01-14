@@ -1,6 +1,14 @@
 # YZU-1131-Web-Final-Project
 
-## feat: Finish Front-End of Design Sign Page
+## feat: Adjust Front-End of Sign Page、Remove Unused Image
+
+* Features
+    1. Adjust Front-End of Sign Page
+        * Change Background Color Into Beckground Image（`img/sign-background.php`）
+        * Change Div Background Transparency Into 0.8
+    2. Remove Unused Image
+
+## feat: Finish Design Front-End of Sign Page
 
 * Features
     1. Remove NavBar、Header、Foter Section
