@@ -1,5 +1,10 @@
 # YZU-1131-Web-Final-Project
 
+## feat: Remove Unused File
+
+* Features
+    1. Removed File : `property-agent.php`、`property-list.php`、`property-type.php`、`about.php`、`eat.php`、`testimonial.php`
+
 ## feat: Modify Footer/Get In Touch, Quick Links And Photo Gallery
 
 * Features
