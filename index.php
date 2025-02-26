@@ -68,16 +68,15 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.php" class="nav-item nav-link active">Home</a>
-                        
                     </div>
                     
                     <?php
-                            if( isset($_COOKIE["account"]) && !empty($_COOKIE["account"]) ){
-                                echo '<a href="signout.php" class="btn btn-primary px-3 d-none d-lg-flex">' . htmlspecialchars($_COOKIE['account']) . '</a>';
-                            } else {
-                                echo '<a href="sign.php" class="btn btn-primary px-3 d-none d-lg-flex">Sign</a>';
-                            }
-                        ?>
+                        if( isset($_COOKIE["account"]) && !empty($_COOKIE["account"]) ){
+                            echo '<a href="signout.php" class="btn btn-primary px-3 d-none d-lg-flex">' . htmlspecialchars($_COOKIE['account']) . '</a>';
+                        } else {
+                            echo '<a href="sign.php" class="btn btn-primary px-3 d-none d-lg-flex">Sign</a>';
+                        }
+                    ?>
                 </div>
             </nav>
         </div>
@@ -91,7 +90,7 @@
                     <h1 class="display-5 animated fadeIn mb-4">Welcome To Our Website <span class="text-primary">Explore YZU</span></h1>
                     <p class="animated fadeIn mb-4 pb-2">Discover everything Yuan Ze University has to offer through our website! Whether you're looking for the best dining spots, 
                         exciting activities, or simply want to learn more about the campus, we’ve got you covered. Start exploring now and make the most of your YZU experience!</p>
-                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+                    <a href="sign.php" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
                     <div class="owl-carousel header-carousel">
@@ -417,12 +416,12 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href="https://maps.app.goo.gl/7HJAcd54GjkPqNoP7m"><img class="img-fluid" src="img\index\restaurant gallery\abiko-1.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/V2NF7Uis8yjNmH4PA"><img class="img-fluid" src="img\index\restaurant gallery\abiko-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
                                         <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Japanese</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/7HJAcd54GjkPqNoP7">Abiko</a>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/V2NF7Uis8yjNmH4PA">Abiko</a>
                                     <h6 class="mb-3">Cash、NFC</h6>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 7, Lane 67, Section 2, Xingren Road, Zhongli District, Taoyuan City 320</p>
                                     </div>
@@ -435,7 +434,7 @@
                             <div class="col-lg-4 col-md-6">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href="https://maps.app.goo.gl/evyASaAgEbUupgcS9?g_st=com.google.maps.preview.copy"><img class="img-fluid" src="img\index\restaurant gallery\muti-italian-kitchen-1.jpg" alt=""></a>
+                                        <a href="https://maps.app.goo.gl/evyASaAgEbUupgcS9?g_st=com.google.maps.preview.copy"><img class="img-fluid" src="img\index\restaurant gallery\matchi-korean-cuisine-1.jpg" alt=""></a>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">NTD$ 200 ~ NTD$ 400</div>
                                         <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Korean</div>
                                     </div>
@@ -476,7 +475,7 @@
                                         <div class="bg-white rounded-top  position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Hong Kong</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/41ody3iou2ZpRvSM7">Yongxin Tea Stall</a>
+                                    <a class="d-block h5 mb-2 text-primary" href="https://maps.app.goo.gl/fcBujJXqdrVo8Kmf6">Yongxin Tea Stall</a>
                                     <h6 class="mb-3">NFC</h6>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>No. 61, Chengzhang 4th Street, Zhongli District, Taoyuan City 320</p>
                                     </div>
@@ -880,7 +879,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link text-white-50" href="index.php">About Us</a>
+                        <a class="btn btn-link text-white-50" href="index.php">Home</a>
                         <!-- <a class="btn btn-link text-white-50" href="contact.php">Contact Us</a>
                         <a class="btn btn-link text-white-50" href="search.php">Search Attractions</a> -->
                         <a class="btn btn-link text-white-50" href="sign.php">Sign</a>
